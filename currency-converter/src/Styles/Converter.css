@@ -1,0 +1,57 @@
+.currency-converter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.firts-amount-change, .second-amount-change{
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+    border: 1px solid #5f6368;
+    caret-color: #8ab4f8;
+    color: #9aa0a6;
+    overflow: hidden;
+    display: flex;
+    border-radius: 6px;
+    box-sizing: border-box;
+    max-width: 350px;
+    width: 100%;
+}
+.firts-amount-change > input, .second-amount-change > input{
+    width: 100%;
+    outline: none;
+    color: white;
+    border-right: 1px solid #3c4043;
+    border-bottom: none;
+    background-color: #202124;
+    margin: 0;
+    overflow: hidden;
+    text-align: left;
+    line-height: 24px;
+    padding: 1px 6px 1px 12px;
+    font-size: 16px;
+    font-family: arial,sans-serif;
+    height: 40px;
+    color: #bdc1c6;
+}
+.firts-amount-change > select, .second-amount-change > select{
+    outline: none;
+    width: 100%;
+    color: white;
+    border:none;
+    background-color: #202124;
+    margin: 0;
+    overflow: hidden;
+    text-align: left;
+    line-height: 24px;
+    padding: 1px 6px 1px 12px;
+    font-size: 16px;
+    font-family: arial,sans-serif;
+    height: 40px;
+    color: #bdc1c6;
+}
+.firts-amount-change:hover, .second-amount-change:hover{
+    border: 1px solid white;
+}
